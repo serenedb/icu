@@ -35,8 +35,6 @@ SimpleFontInstance::SimpleFontInstance(float pointSize, LEErrorCode &status)
 
     fAscent  = (le_int32) yUnitsToPoints(2000.0);
     fDescent = (le_int32) yUnitsToPoints(600.0);
-
-    return;
 }
 
 SimpleFontInstance::~SimpleFontInstance()
@@ -54,7 +52,7 @@ const void *SimpleFontInstance::getFontTable(LETag tableTag) const
         return CanonShaping::glyphDefinitionTable;
     }
 
-    return NULL;
+    return nullptr;
 }
 
 void SimpleFontInstance::getGlyphAdvance(LEGlyphID glyph, LEPoint &advance) const
@@ -133,6 +131,6 @@ float SimpleFontInstance::getScaleFactorY() const
 
 le_bool SimpleFontInstance::getGlyphPoint(LEGlyphID /*glyph*/, le_int32 /*pointNumber*/, LEPoint &/*point*/) const
 {
-    return FALSE;
+    return false;
 }
 

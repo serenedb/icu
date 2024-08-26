@@ -18,11 +18,11 @@
 class LocaleCreateCanonical : public UPerfFunction {
 public:
     LocaleCreateCanonical() {
-        testCases.push_back("en");
-        testCases.push_back("en-US");
-        testCases.push_back("ja-JP");
-        testCases.push_back("zh-Hant-CN");
-        testCases.push_back("hy-SU");
+        testCases.emplace_back("en");
+        testCases.emplace_back("en-US");
+        testCases.emplace_back("ja-JP");
+        testCases.emplace_back("zh-Hant-CN");
+        testCases.emplace_back("hy-SU");
     }
     ~LocaleCreateCanonical() {  }
     virtual void call(UErrorCode* /* status */)
@@ -85,7 +85,7 @@ int main(int argc, const char *argv[])
         return status;
     }
 
-    if (test.run() == FALSE){
+    if (test.run() == false){
         test.usage();
         fprintf(stderr, "FAILED: Tests could not be run please check the arguments.\n");
         return -1;

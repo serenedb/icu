@@ -298,6 +298,9 @@ ia{
         ZW{"Zimbabwe"}
         ZZ{"Region incognite"}
     }
+    Countries%chagos{
+        IO{"Archipelago de Chagos"}
+    }
     Countries%short{
         GB{"RU"}
         HK{"Hongkong"}
@@ -311,6 +314,7 @@ ia{
         CI{"Republica de Côte d’Ivoire"}
         CZ{"Republica Chec"}
         FK{"Insulas Falkland (Malvinas)"}
+        NZ{"Aotearoa/Nove Zelanda"}
         SZ{"Swazilandia"}
     }
 }

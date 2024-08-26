@@ -55,15 +55,15 @@ es_419{
             }
         }
         mass{
-            metric-ton{
-                dnam{"toneladas métricas"}
-                one{"{0} tonelada métrica"}
-                other{"{0} toneladas métricas"}
-            }
             ton{
                 dnam{"toneladas"}
                 one{"{0} tonelada"}
                 other{"{0} toneladas"}
+            }
+            tonne{
+                dnam{"toneladas métricas"}
+                one{"{0} tonelada métrica"}
+                other{"{0} toneladas métricas"}
             }
         }
         power{
@@ -98,17 +98,17 @@ es_419{
         }
     }
     unitsNarrow{
-        acceleration{
-            g-force{
-                dnam{"G"}
-            }
-            meter-per-square-second{
-                dnam{"m/s²"}
-            }
-        }
         area{
             square-meter{
                 dnam{"metros²"}
+            }
+        }
+        concentr{
+            permille{
+                dnam{"‰"}
+            }
+            permyriad{
+                dnam{"‱"}
             }
         }
         duration{
@@ -116,11 +116,6 @@ es_419{
                 dnam{"d."}
                 one{"{0}d."}
                 other{"{0}dd."}
-                per{"{0}/d."}
-            }
-            minute{
-                one{"{0}m"}
-                other{"{0}m"}
             }
             month{
                 dnam{"m."}
@@ -140,6 +135,16 @@ es_419{
                 other{"{0}aa."}
             }
         }
+        energy{
+            calorie{
+                one{"{0} cal"}
+                other{"{0}cal"}
+            }
+            therm-us{
+                one{"{0}thm EE.UU."}
+                other{"{0}thm EE.UU."}
+            }
+        }
         force{
             kilowatt-hour-per-100-kilometer{
                 one{"{0} kWh/100km"}
@@ -148,21 +153,11 @@ es_419{
         }
         graphics{
             dot{
-                dnam{"p"}
                 one{"{0}p"}
-                other{"{0}pt"}
-            }
-            dot-per-centimeter{
-                dnam{"ppcm"}
-            }
-            megapixel{
-                dnam{"Mpx"}
+                other{"{0}p"}
             }
         }
         length{
-            astronomical-unit{
-                dnam{"ua"}
-            }
             light-year{
                 dnam{"aa. l."}
                 one{"{0}a. l."}
@@ -174,47 +169,63 @@ es_419{
             }
             nautical-mile{
                 one{"{0}nmi"}
+                other{"{0}nmi"}
             }
             parsec{
                 dnam{"parsec"}
             }
         }
         mass{
-            carat{
-                dnam{"ct"}
-            }
-            metric-ton{
-                dnam{"t"}
-            }
-            microgram{
-                dnam{"μg"}
-            }
-            milligram{
-                dnam{"mg"}
+            ounce{
+                one{"{0} oz"}
+                other{"{0}oz"}
             }
             ounce-troy{
-                dnam{"ozt"}
                 one{"{0}ozt"}
                 other{"{0}ozt"}
             }
+            pound{
+                one{"{0} lb"}
+                other{"{0}lb"}
+            }
             ton{
-                dnam{"ton"}
                 one{"{0}ton"}
                 other{"{0}ton"}
             }
         }
+        power{
+            horsepower{
+                one{"{0}hp"}
+                other{"{0}hp"}
+            }
+        }
         speed{
-            knot{
-                dnam{"kn"}
+            beaufort{
+                one{"B {0}"}
+                other{"B {0}"}
             }
         }
         volume{
+            acre-foot{
+                one{"{0} ac ft"}
+                other{"{0}ac ft"}
+            }
             barrel{
                 one{"{0}bbl"}
                 other{"{0}bbl"}
             }
+            milliliter{
+                one{"{0}ml"}
+                other{"{0}ml"}
+            }
             pint{
                 dnam{"pt"}
+                one{"{0}pt"}
+                other{"{0}pt"}
+            }
+            quart-imperial{
+                one{"{0} qt imp."}
+                other{"{0}qt imp"}
             }
         }
     }
@@ -235,6 +246,12 @@ es_419{
             mile-per-gallon-imperial{
                 one{"{0} mpg imp."}
                 other{"{0} mpg imp."}
+            }
+        }
+        digital{
+            byte{
+                one{"{0} byte"}
+                other{"{0} byte"}
             }
         }
         duration{
@@ -295,11 +312,6 @@ es_419{
             }
         }
         mass{
-            metric-ton{
-                dnam{"t"}
-                one{"{0} t"}
-                other{"{0} t"}
-            }
             ounce-troy{
                 dnam{"ozt"}
                 one{"{0} ozt"}

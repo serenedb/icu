@@ -298,6 +298,9 @@ pt{
         ZW{"Zimbábue"}
         ZZ{"Região desconhecida"}
     }
+    Countries%chagos{
+        IO{"Arquipélago de Chagos"}
+    }
     Countries%short{
         HK{"Hong Kong"}
         MO{"Macau"}
@@ -311,6 +314,7 @@ pt{
         CI{"Côte d’Ivoire"}
         CZ{"República Tcheca"}
         FK{"Ilhas Malvinas (Ilhas Falkland)"}
+        NZ{"Aotearoa da Nova Zelândia"}
         SZ{"Suazilândia"}
         TL{"República Democrática de Timor-Leste"}
     }
