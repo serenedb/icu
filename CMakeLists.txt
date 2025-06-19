@@ -475,7 +475,7 @@ set(ICUDATA_SOURCES
 )
 
 # Note that we don't like any kind of binary plugins (because of runtime dependencies, vulnerabilities, ABI incompatibilities).
-if (USE_MAINTAINER_MODE)
+if (SDB_DEV)
   add_definitions(-DU_DEBUG=1)
 else ()
   add_definitions(-DU_DEBUG=0)
