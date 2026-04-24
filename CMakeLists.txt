@@ -522,6 +522,9 @@ add_library(_icuuc ${ICUUC_SOURCES})
 add_library(_icui18n ${ICUI18N_SOURCES})
 add_library(_icudata ${ICUDATA_SOURCES})
 
+target_compile_options(_icuuc PRIVATE -Wno-unnecessary-virtual-specifier)
+target_compile_options(_icui18n PRIVATE -Wno-unnecessary-virtual-specifier)
+
 target_link_libraries(_icuuc PRIVATE _icudata)
 target_link_libraries(_icui18n PRIVATE _icuuc)
 
